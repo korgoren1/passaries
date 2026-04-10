@@ -132,19 +132,28 @@
   justify-content:center;
 }
 
+
+  .profile-pic {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
 .profile-pic img {
-  width:180px;
-  height:180px;
-  object-fit:cover;
-  border-radius:50%;
-  border:5px solid #ff5c8d;
-  box-shadow:0 12px 30px rgba(0,0,0,0.25);
-  transition:0.4s ease;
+  width: 220px;
+  height: 280px; /* taller frame so body fits */
+  object-fit: contain; /* IMPORTANT: prevents cutting parts */
+  background: #fff;
+  padding: 8px;
+  border-radius: 20px; /* softer, elegant frame */
+  border: 4px solid #ff5c8d;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+  transition: 0.4s ease;
 }
 
 .profile-pic img:hover {
-  transform:scale(1.08) rotate(2deg);
-  box-shadow:0 18px 40px rgba(255,92,141,0.4);
+  transform: scale(1.05);
+  box-shadow: 0 18px 40px rgba(255,92,141,0.35);
 }
 </style>
 </head>
@@ -163,12 +172,7 @@
   <p>🏡 From <span class="highlight">Bomet County</span> </p>
 </header>
 
-<div class="container">
-
-  <!-- About Me -->
-  <section class="fade-in">
-    <h2>About Me</h2>
-    <p>Hey Passaries, I'm <span class="highlight">Ezra Korgoren</span>, a passionate <span class="highlight">software developer</span> with a love for creativity and making people smile.</p>
+<div class="coveloper</span> with a love for creativity and making people smile.</p>
     <p>Currently studying Information Technology at the University of Eldoret, I spend my days exploring the <span class="highlight">limitless potential of technology</span>.</p>
     <p>When I'm not coding, I enjoy <span class="highlight">music</span>, <span class="highlight">photography</span>, and heartfelt conversations. I wanted to share this little digital world with you 💕</p>
   </section>
