@@ -126,6 +126,26 @@
     header h1{ font-size:2.2rem; }
     header p{ font-size:1rem; }
   }
+  .profile-pic {
+  margin-top:25px;
+  display:flex;
+  justify-content:center;
+}
+
+.profile-pic img {
+  width:180px;
+  height:180px;
+  object-fit:cover;
+  border-radius:50%;
+  border:5px solid #ff5c8d;
+  box-shadow:0 12px 30px rgba(0,0,0,0.25);
+  transition:0.4s ease;
+}
+
+.profile-pic img:hover {
+  transform:scale(1.08) rotate(2deg);
+  box-shadow:0 18px 40px rgba(255,92,141,0.4);
+}
 </style>
 </head>
 <body>
@@ -136,6 +156,9 @@
 <header class="fade-in">
   <h1>Ezra ❤️ Passaries</h1>
   <p>Welcome to my <span class="highlight">digital confession</span>! 💖</p>
+  <div class="profile-pic">
+  <img src="https://i.postimg.cc/Dw6spT9D/Dofoto-20260410-172923372d31b58dee17c28f8ee22e28264001193.jpg" alt="Passaries">
+  </div>
   <p>🗓  BSc Information Technology • University of Eldoret</p>
   <p>🏡 From <span class="highlight">Bomet County</span> </p>
 </header>
